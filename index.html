@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Music Player</title>
+</head>
+<body>
+  <div class="heading">
+    <h1>Photo Gallery</h1>
+  </div>
+
+  
+  <div class="album-cover">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/sou.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/fear.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/vin.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/o pr.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/pav.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/ok.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/anvu.jpg" />
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/na.jpg" />
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="music-player">
+    <h1>Title</h1>
+    <p>Song Name</p>
+
+    <audio id="song">
+      <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div class="time-info">
+      <span id="current-time">00:00</span>
+      <input type="range" value="0" id="progress" />
+      <span id="duration">00:00</span>
+    </div>
+
+    <div class="controls">
+      <button class="backward">
+        <i class="fa-solid fa-backward"></i>
+      </button>
+      <button class="play-pause-btn">
+        <i class="fa-solid fa-play" id="controlIcon"></i>
+      </button>
+      <button class="forward">
+        <i class="fa-solid fa-forward"></i>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
