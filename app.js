@@ -13,43 +13,43 @@ const songs = [
   {
     title: "Souraa",
     name: "Anirudh Ravichander",
-    source: "song-list/Souraa.mp3",
+    source: "Souraa.mp3",
   },
   {
     title: "Fear Song",
     name: "Anirudh Ravichander",
-    source: "song-list/Fear.mp3",
+    source: "Fear.mp3",
   },
   {
     title: "Vintunnavaa",
     name: "A.R.Rahman",
-    source: "song-list/Vintunnavaa.mp3",
+    source: "Vintunnavaa.mp3",
   },
   {
     title: "Oh Prema",
     name: "Kapil Kapilan",
-    source: "song-list/Oh Prema.mp3",
+    source: "Oh Prema.mp3",
   },
   {
     title: "Pavizha Mazha",
     name: "KS Harisanker,",
-    source: "song-list/Pavizha-Mazha.mp3",
+    source: "Pavizha-Mazha.mp3",
   },
   
   {
     title: "Ok Anesa ",
     name: "Naresh Lyer",
-    source: "song-list/Ok Anesa.mp3",
+    source: "Ok Anesa.mp3",
   },
   {
     title: "Anuvanuvuu",
     name: "Sree Vishnu",
-    source: "song-list/Anuvanuvuu.mp3",
+    source: "Anuvanuvuu.mp3",
   },
   {
     title: "Naalone Pongenu",
     name: "Harish Ragavendra",
-    source: "song-list/Naalona Pongenu.mp3",
+    source: "Naalona Pongenu.mp3",
   },
 ];
 
